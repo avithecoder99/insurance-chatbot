@@ -2,8 +2,8 @@
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from app.retriever import retrieve_context, get_gpt4_answer
-from app.prompts import build_prompt
+from retriever import retrieve_context, get_gpt4_answer
+from prompts import build_prompt
 
 app = FastAPI()
 
